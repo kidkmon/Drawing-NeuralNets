@@ -2,37 +2,26 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-[RequireComponent(typeof(Camera))]
 public class MouseDrawer : MonoBehaviour {
 
-	private new Camera camera;
+	public Camera camera;
 	
-	public GameObject cube;
-	public float depth = 5;
 	public float speed = 5;
 	private Vector3 mousePosition;
 
-	// Use this for initialization
-	void Start () {
-		camera = GetComponent<Camera>();
-	}
-	
 	// Update is called once per frame
 	void Update () {
 		if(Input.GetMouseButton(0)){
-			mousePosition = GetMouseCameraPoint();
-			cube.transform.position = Vector3.MoveTowards(cube.transform.position, mousePosition, speed * Time.deltaTime);
-		
+			Vector3 temp = Input.mousePosition;
+			temp.z = 10;
+			transform.position = Camera.main.ScreenToWorldPoint(temp);
+			GetComponent<TrailRenderer>().enabled = true;
 		}
 		if(Input.GetMouseButtonUp(0)){
 			StartCoroutine("WriteAndSendPng");
 		}
 	}
 
-	private Vector3 GetMouseCameraPoint(){
-		var ray = camera.ScreenPointToRay(Input.mousePosition);
-		return ray.origin + ray.direction * depth;
-	}
 
 	IEnumerator WriteAndSendPng(){
 		RenderTexture currentRT = RenderTexture.active;
