@@ -1,0 +1,29 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Drawing-NeuralNets", "Assembly-CSharp.csproj", "{E98E05DE-8474-5BB7-2B36-8967F342D68D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Drawing-NeuralNets", "Assembly-CSharp-Editor.csproj", "{FBAD5F95-CBC7-DC02-0E28-CBACD2019CA1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E98E05DE-8474-5BB7-2B36-8967F342D68D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E98E05DE-8474-5BB7-2B36-8967F342D68D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E98E05DE-8474-5BB7-2B36-8967F342D68D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E98E05DE-8474-5BB7-2B36-8967F342D68D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FBAD5F95-CBC7-DC02-0E28-CBACD2019CA1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FBAD5F95-CBC7-DC02-0E28-CBACD2019CA1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FBAD5F95-CBC7-DC02-0E28-CBACD2019CA1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FBAD5F95-CBC7-DC02-0E28-CBACD2019CA1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = Assembly-CSharp.csproj
+	EndGlobalSection
+EndGlobal

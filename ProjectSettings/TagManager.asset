@@ -3,7 +3,10 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Tip
+  - Grabable
+  - Bullet
   layers:
   - Default
   - TransparentFX
@@ -15,6 +18,9 @@ TagManager:
   - 
   - PostProcessing
   - Background
+  - BatFollower
+  - Ball
+  - Controles
   - 
   - 
   - 
@@ -33,10 +39,7 @@ TagManager:
   - 
   - 
   - 
-  - 
-  - 
-  - 
-  - 
+  - Spatial Mapping
   m_SortingLayers:
   - name: Default
     uniqueID: 0
