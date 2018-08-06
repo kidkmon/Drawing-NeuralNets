@@ -139,8 +139,8 @@ public class CursorDrawer : MonoBehaviour {
 	}
 
 	public void OnReply(SocketIOEvent e){
-		dataResult = e.data[2];
-		resultText.text = e.data[2].ToString();
-		print(e.data[2].ToString());
+		dataResult = e.data[0];
+		resultText.text = e.data[0].ToString();
+		print(e.data.ToString());
 	}
 }
