@@ -7,9 +7,9 @@
 
 **DISCLAIMER**: *Project with the intention of approaching a new interaction in a virtual world integrating Machine Learning to be able to have a better experience when using the glasses of Virtual Reality.*
 
-
-![2](https://user-images.githubusercontent.com/18224116/44405406-281b8580-a527-11e8-8856-3d1c2136b766.jpg)
-![1](https://user-images.githubusercontent.com/18224116/44405006-3e751180-a526-11e8-9046-3ab8df29ed03.jpeg)
+Draw             |  Draw Result
+:-------------------------:|:-------------------------:
+![](https://user-images.githubusercontent.com/18224116/44405406-281b8580-a527-11e8-8856-3d1c2136b766.jpg)  |  ![](https://user-images.githubusercontent.com/18224116/44405006-3e751180-a526-11e8-9046-3ab8df29ed03.jpeg)
 
 
 ## Index
